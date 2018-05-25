@@ -1,0 +1,23 @@
+{
+    "name": "leavechatbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node",
+        "heroku",
+        "express"
+    ],
+    "author": "Kitipoom Kongpetch",
+    "license": "ISC",
+    "dependencies": {
+        "@line/bot-sdk": "^6.0.1",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "request": "^2.86.0"
+    }
+}
